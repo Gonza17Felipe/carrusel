@@ -1,0 +1,68 @@
+body{
+    text-align: center;
+    padding-top: 50px;
+    background: url(../Imagenes/fondo.jpg);
+}
+
+.carousel {
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+}
+#imagen {
+    width: 200%;
+    height: 500px;
+    background-size: cover;
+}
+h1{
+    text-align: center;
+    font-size: 30px;
+}
+
+#play{
+    background: #069fec32;
+    color: aliceblue;
+    border-radius: 10px;
+    border: 2px solid #000000;
+    margin: 14px;
+   justify-content:center;
+}
+
+#stop{
+    background: #069fec32;
+    color: aliceblue;
+    border-radius: 10px;
+    border: 2px solid #000000;
+    
+}
+
+#controles{
+display: flex;
+justify-content:center;
+transform: rotateX(1200px);
+}
+
+#retroceder{
+    background:#069fec32;;
+    color: #000000;
+    border-radius: 50px;
+    border: 2px solid #000000;
+    height: 50px;
+    transform: translateY(175px);    
+}
+
+#avanzar{
+    background: #069fec32;;
+    color:#000000;
+    border-radius: 50px;
+    border: 2px solid #000000;
+    height: 50px;
+    transform: translateY(170px); 
+}
+
+button:hover{
+    background: #c84040;
+    color: #000000;
+    padding: 12px 12px;
+    border-radius: 10px;
+}
